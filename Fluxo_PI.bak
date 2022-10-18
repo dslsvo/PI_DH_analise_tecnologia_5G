@@ -1,0 +1,1565 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.1">
+  <Nodes>
+    <Node ToolID="49">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="497" y="809" width="389" height="180" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Crescimento_Econômico</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="9">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="522" y="858" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\Matheus\OneDrive\Área de Trabalho\Digital House\Projeto Integrador\Projeto_Integrador_Final\Bases\ANDERSON 2.xlsx|||`Plan1$`</File>
+              <FormatSpecificOptions>
+                <FirstRowData>False</FirstRowData>
+                <ImportLine>1</ImportLine>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Crescimento_Econômico/Desenvolvimento_humano</AnnotationText>
+              <DefaultAnnotationText>ANDERSON 2.xlsx
+Query=`Plan1$`</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Country" size="255" source="File: C:\Users\Matheus\OneDrive\Área de Trabalho\Digital House\Projeto Integrador\Projeto_Integrador_Final\Bases\ANDERSON 2.xlsx|||`Plan1$`" type="V_String" />
+                <Field name="Code" size="255" source="File: C:\Users\Matheus\OneDrive\Área de Trabalho\Digital House\Projeto Integrador\Projeto_Integrador_Final\Bases\ANDERSON 2.xlsx|||`Plan1$`" type="V_String" />
+                <Field name="ContinentCode" size="255" source="File: C:\Users\Matheus\OneDrive\Área de Trabalho\Digital House\Projeto Integrador\Projeto_Integrador_Final\Bases\ANDERSON 2.xlsx|||`Plan1$`" type="V_String" />
+                <Field name="Year" source="File: C:\Users\Matheus\OneDrive\Área de Trabalho\Digital House\Projeto Integrador\Projeto_Integrador_Final\Bases\ANDERSON 2.xlsx|||`Plan1$`" type="Double" />
+                <Field name="Economic growth: the rate of change of real GDP" source="File: C:\Users\Matheus\OneDrive\Área de Trabalho\Digital House\Projeto Integrador\Projeto_Integrador_Final\Bases\ANDERSON 2.xlsx|||`Plan1$`" type="Double" />
+                <Field name="Gross Domestic Product, billions of U.S. dollars" source="File: C:\Users\Matheus\OneDrive\Área de Trabalho\Digital House\Projeto Integrador\Projeto_Integrador_Final\Bases\ANDERSON 2.xlsx|||`Plan1$`" type="Double" />
+                <Field name="GDP per capita, current U.S. dollars" source="File: C:\Users\Matheus\OneDrive\Área de Trabalho\Digital House\Projeto Integrador\Projeto_Integrador_Final\Bases\ANDERSON 2.xlsx|||`Plan1$`" type="Double" />
+                <Field name="Foreign Direct Investment, percent of GDP" source="File: C:\Users\Matheus\OneDrive\Área de Trabalho\Digital House\Projeto Integrador\Projeto_Integrador_Final\Bases\ANDERSON 2.xlsx|||`Plan1$`" type="Double" />
+                <Field name="External debt, percent of Gross National Income" source="File: C:\Users\Matheus\OneDrive\Área de Trabalho\Digital House\Projeto Integrador\Projeto_Integrador_Final\Bases\ANDERSON 2.xlsx|||`Plan1$`" type="Double" />
+                <Field name="Short-term debt, percent of total external debt" source="File: C:\Users\Matheus\OneDrive\Área de Trabalho\Digital House\Projeto Integrador\Projeto_Integrador_Final\Bases\ANDERSON 2.xlsx|||`Plan1$`" type="Double" />
+                <Field name="Short-term external debt, percent of international reserves" source="File: C:\Users\Matheus\OneDrive\Área de Trabalho\Digital House\Projeto Integrador\Projeto_Integrador_Final\Bases\ANDERSON 2.xlsx|||`Plan1$`" type="Double" />
+                <Field name="Government spending as percent of GDP" source="File: C:\Users\Matheus\OneDrive\Área de Trabalho\Digital House\Projeto Integrador\Projeto_Integrador_Final\Bases\ANDERSON 2.xlsx|||`Plan1$`" type="Double" />
+                <Field name="Government spending, billion USD" source="File: C:\Users\Matheus\OneDrive\Área de Trabalho\Digital House\Projeto Integrador\Projeto_Integrador_Final\Bases\ANDERSON 2.xlsx|||`Plan1$`" type="Double" />
+                <Field name="Government debt as percent of GDP" source="File: C:\Users\Matheus\OneDrive\Área de Trabalho\Digital House\Projeto Integrador\Projeto_Integrador_Final\Bases\ANDERSON 2.xlsx|||`Plan1$`" type="Double" />
+                <Field name="Competitiveness - World Economic Forum index (0-100)" source="File: C:\Users\Matheus\OneDrive\Área de Trabalho\Digital House\Projeto Integrador\Projeto_Integrador_Final\Bases\ANDERSON 2.xlsx|||`Plan1$`" type="Double" />
+                <Field name="Cost of starting a business, % of income per capita" source="File: C:\Users\Matheus\OneDrive\Área de Trabalho\Digital House\Projeto Integrador\Projeto_Integrador_Final\Bases\ANDERSON 2.xlsx|||`Plan1$`" type="Double" />
+                <Field name="Human Development Index (0 - 1)" source="File: C:\Users\Matheus\OneDrive\Área de Trabalho\Digital House\Projeto Integrador\Projeto_Integrador_Final\Bases\ANDERSON 2.xlsx|||`Plan1$`" type="Double" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="45">
+          <GuiSettings>
+            <Position x="594" y="858" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="Check Box (135)">True</Value>
+              <Value name="Check Box (136)">True</Value>
+              <Value name="List Box (11)">"Country","Code","ContinentCode","Year","Economic growth: the rate of change of real GDP","Gross Domestic Product, billions of U.S. dollars","GDP per capita, current U.S. dollars","Foreign Direct Investment, percent of GDP","External debt, percent of Gross National Income","Short-term debt, percent of total external debt","Short-term external debt, percent of international reserves","Government spending as percent of GDP","Government spending, billion USD","Government debt as percent of GDP","Competitiveness - World Economic Forum index (0-100)","Cost of starting a business, % of income per capita","Human Development Index (0 - 1)"</Value>
+              <Value name="Check Box (84)">True</Value>
+              <Value name="Check Box (117)">True</Value>
+              <Value name="Check Box (15)">True</Value>
+              <Value name="Check Box (109)">False</Value>
+              <Value name="Check Box (122)">False</Value>
+              <Value name="Check Box (53)">False</Value>
+              <Value name="Check Box (58)">False</Value>
+              <Value name="Check Box (70)">False</Value>
+              <Value name="Check Box (77)">False</Value>
+              <Value name="Drop Down (81)">upper</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+          </Properties>
+          <EngineSettings Macro="Cleanse.yxmc" />
+        </Node>
+        <Node ToolID="46">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+            <Position x="666" y="858" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Fields>
+                <Field field="Country" selected="True" />
+                <Field field="Code" selected="True" />
+                <Field field="ContinentCode" selected="True" />
+                <Field field="*Unknown" selected="True" />
+              </Fields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Country" size="9" source="Formula: [_CurrentField_]" type="String" />
+                <Field name="Code" size="3" source="Formula: [_CurrentField_]" type="String" />
+                <Field name="ContinentCode" size="2" source="Formula: [_CurrentField_]" type="String" />
+                <Field name="Year" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_])" type="Double" />
+                <Field name="Economic growth: the rate of change of real GDP" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_])" type="Double" />
+                <Field name="Gross Domestic Product, billions of U.S. dollars" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_])" type="Double" />
+                <Field name="GDP per capita, current U.S. dollars" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_])" type="Double" />
+                <Field name="Foreign Direct Investment, percent of GDP" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_])" type="Double" />
+                <Field name="External debt, percent of Gross National Income" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_])" type="Double" />
+                <Field name="Short-term debt, percent of total external debt" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_])" type="Double" />
+                <Field name="Short-term external debt, percent of international reserves" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_])" type="Double" />
+                <Field name="Government spending as percent of GDP" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_])" type="Double" />
+                <Field name="Government spending, billion USD" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_])" type="Double" />
+                <Field name="Government debt as percent of GDP" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_])" type="Double" />
+                <Field name="Competitiveness - World Economic Forum index (0-100)" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_])" type="Double" />
+                <Field name="Cost of starting a business, % of income per capita" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_])" type="Double" />
+                <Field name="Human Development Index (0 - 1)" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_])" type="Double" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+        </Node>
+        <Node ToolID="47">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="726" y="858" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Year" selected="True" type="String" size="19" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="48">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="786" y="858" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="[Year]+[Code]" field="ID" size="1073741823" type="V_WString" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[ID = [Year]+[Code]
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="44">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="77" y="665" width="381" height="225" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Inflação/Balança Comercial/Criminalidade</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="7">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="102" y="714" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\Matheus\OneDrive\Área de Trabalho\Digital House\Projeto Integrador\Projeto_Integrador_Final\Bases\SU 2.xlsx|||`Plan1$`</File>
+              <FormatSpecificOptions>
+                <FirstRowData>False</FirstRowData>
+                <ImportLine>1</ImportLine>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Inflação/balança comercial/criminalidade</AnnotationText>
+              <DefaultAnnotationText>SU 2.xlsx
+Query=`Plan1$`</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Country" size="255" source="File: C:\Users\Matheus\OneDrive\Área de Trabalho\Digital House\Projeto Integrador\Projeto_Integrador_Final\Bases\SU 2.xlsx|||`Plan1$`" type="V_String" />
+                <Field name="Code" size="255" source="File: C:\Users\Matheus\OneDrive\Área de Trabalho\Digital House\Projeto Integrador\Projeto_Integrador_Final\Bases\SU 2.xlsx|||`Plan1$`" type="V_String" />
+                <Field name="ContinentCode" size="255" source="File: C:\Users\Matheus\OneDrive\Área de Trabalho\Digital House\Projeto Integrador\Projeto_Integrador_Final\Bases\SU 2.xlsx|||`Plan1$`" type="V_String" />
+                <Field name="Year" source="File: C:\Users\Matheus\OneDrive\Área de Trabalho\Digital House\Projeto Integrador\Projeto_Integrador_Final\Bases\SU 2.xlsx|||`Plan1$`" type="Double" />
+                <Field name="Inflation: percent change in the Consumer Price Index" size="255" source="File: C:\Users\Matheus\OneDrive\Área de Trabalho\Digital House\Projeto Integrador\Projeto_Integrador_Final\Bases\SU 2.xlsx|||`Plan1$`" type="V_String" />
+                <Field name="Trade balance as percent of GDP" size="255" source="File: C:\Users\Matheus\OneDrive\Área de Trabalho\Digital House\Projeto Integrador\Projeto_Integrador_Final\Bases\SU 2.xlsx|||`Plan1$`" type="V_String" />
+                <Field name="Trade balance, billion USD" size="255" source="File: C:\Users\Matheus\OneDrive\Área de Trabalho\Digital House\Projeto Integrador\Projeto_Integrador_Final\Bases\SU 2.xlsx|||`Plan1$`" type="V_String" />
+                <Field name="Inflation forecast" size="255" source="File: C:\Users\Matheus\OneDrive\Área de Trabalho\Digital House\Projeto Integrador\Projeto_Integrador_Final\Bases\SU 2.xlsx|||`Plan1$`" type="V_String" />
+                <Field name="Kidnappings per 100,000 people" size="255" source="File: C:\Users\Matheus\OneDrive\Área de Trabalho\Digital House\Projeto Integrador\Projeto_Integrador_Final\Bases\SU 2.xlsx|||`Plan1$`" type="V_String" />
+                <Field name="Robberies per 100,000 people" size="255" source="File: C:\Users\Matheus\OneDrive\Área de Trabalho\Digital House\Projeto Integrador\Projeto_Integrador_Final\Bases\SU 2.xlsx|||`Plan1$`" type="V_String" />
+                <Field name="Number of prisoners per 100,000 people" size="255" source="File: C:\Users\Matheus\OneDrive\Área de Trabalho\Digital House\Projeto Integrador\Projeto_Integrador_Final\Bases\SU 2.xlsx|||`Plan1$`" type="V_String" />
+                <Field name="Thefts per 100,000 people" size="255" source="File: C:\Users\Matheus\OneDrive\Área de Trabalho\Digital House\Projeto Integrador\Projeto_Integrador_Final\Bases\SU 2.xlsx|||`Plan1$`" type="V_String" />
+                <Field name="Homicides per 100,000 people" size="255" source="File: C:\Users\Matheus\OneDrive\Área de Trabalho\Digital House\Projeto Integrador\Projeto_Integrador_Final\Bases\SU 2.xlsx|||`Plan1$`" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="40">
+          <GuiSettings>
+            <Position x="162" y="714" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="Check Box (135)">True</Value>
+              <Value name="Check Box (136)">True</Value>
+              <Value name="List Box (11)">"Country","Code","ContinentCode","Year","Inflation: percent change in the Consumer Price Index","Trade balance as percent of GDP","Trade balance, billion USD","Inflation forecast","Kidnappings per 100,000 people","Robberies per 100,000 people","Number of prisoners per 100,000 people","Thefts per 100,000 people","Homicides per 100,000 people"</Value>
+              <Value name="Check Box (84)">True</Value>
+              <Value name="Check Box (117)">True</Value>
+              <Value name="Check Box (15)">True</Value>
+              <Value name="Check Box (109)">True</Value>
+              <Value name="Check Box (122)">True</Value>
+              <Value name="Check Box (53)">False</Value>
+              <Value name="Check Box (58)">False</Value>
+              <Value name="Check Box (70)">False</Value>
+              <Value name="Check Box (77)">False</Value>
+              <Value name="Drop Down (81)">upper</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+          </Properties>
+          <EngineSettings Macro="Cleanse.yxmc" />
+        </Node>
+        <Node ToolID="41">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+            <Position x="222" y="714" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Fields>
+                <Field field="Country" selected="True" />
+                <Field field="Code" selected="True" />
+                <Field field="ContinentCode" selected="True" />
+                <Field field="Inflation: percent change in the Consumer Price Index" selected="True" />
+                <Field field="Trade balance as percent of GDP" selected="True" />
+                <Field field="Trade balance, billion USD" selected="True" />
+                <Field field="Inflation forecast" selected="True" />
+                <Field field="Kidnappings per 100,000 people" selected="True" />
+                <Field field="Robberies per 100,000 people" selected="True" />
+                <Field field="Number of prisoners per 100,000 people" selected="True" />
+                <Field field="Thefts per 100,000 people" selected="True" />
+                <Field field="Homicides per 100,000 people" selected="True" />
+                <Field field="*Unknown" selected="True" />
+              </Fields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Country" size="9" source="Formula: [_CurrentField_]" type="String" />
+                <Field name="Code" size="3" source="Formula: [_CurrentField_]" type="String" />
+                <Field name="ContinentCode" size="2" source="Formula: [_CurrentField_]" type="String" />
+                <Field name="Year" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_])" type="Double" />
+                <Field name="Inflation: percent change in the Consumer Price Index" size="18" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="Trade balance as percent of GDP" size="19" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="Trade balance, billion USD" size="20" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="Inflation forecast" size="22" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="Kidnappings per 100,000 people" size="18" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="Robberies per 100,000 people" size="3" source="Formula: [_CurrentField_]" type="String" />
+                <Field name="Number of prisoners per 100,000 people" size="4" source="Formula: [_CurrentField_]" type="String" />
+                <Field name="Thefts per 100,000 people" size="4" source="Formula: [_CurrentField_]" type="String" />
+                <Field name="Homicides per 100,000 people" size="18" source="Formula: [_CurrentField_]" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+        </Node>
+        <Node ToolID="42">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="330" y="714" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="IF IsEmpty([Inflation: percent change in the Consumer Price Index]) THEN 0 ELSE [Inflation: percent change in the Consumer Price Index] ENDIF" field="Inflation: percent change in the Consumer Price Index" size="18" type="V_String" />
+                <FormulaField expression="IF IsEmpty([Trade balance as percent of GDP]) THEN 0 ELSE [Trade balance as percent of GDP] ENDIF" field="Trade balance as percent of GDP" size="19" type="V_String" />
+                <FormulaField expression="IF IsEmpty([Trade balance, billion USD]) THEN 0 ELSE [Trade balance, billion USD] ENDIF" field="Trade balance, billion USD" size="20" type="V_String" />
+                <FormulaField expression="IF IsEmpty([Inflation forecast]) THEN 0 ELSE [Inflation forecast] ENDIF" field="Inflation: percent change in the Consumer Price Index" size="18" type="V_String" />
+                <FormulaField expression="IF IsEmpty([Robberies per 100,000 people]) THEN 0 ELSE [Robberies per 100,000 people] ENDIF" field="Kidnappings per 100,000 people" size="18" type="V_String" />
+                <FormulaField expression="IF IsEmpty([Number of prisoners per 100,000 people]) THEN 0 ELSE [Number of prisoners per 100,000 people] ENDIF" field="Number of prisoners per 100,000 people" size="4" type="String" />
+                <FormulaField expression="IF IsEmpty([Thefts per 100,000 people]) THEN 0 ELSE [Thefts per 100,000 people] ENDIF" field="Thefts per 100,000 people" size="4" type="String" />
+                <FormulaField expression="IF IsEmpty([Homicides per 100,000 people]) THEN 0 ELSE [Homicides per 100,000 people] ENDIF" field="Homicides per 100,000 people" size="18" type="V_String" />
+                <FormulaField expression="[Year]+[Code]" field="ID" size="1073741823" type="V_WString" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Inflation: percent change in the Consumer Price Index = IF IsEmpty([Inflation: p...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="43">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="282" y="714" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Year" selected="True" type="String" size="19" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="39">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="497" y="413" width="360" height="369" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Energias Renováveis</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="29">
+          <GuiSettings>
+            <Position x="582" y="462" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="Check Box (135)">True</Value>
+              <Value name="Check Box (136)">True</Value>
+              <Value name="List Box (11)">""</Value>
+              <Value name="Check Box (84)">True</Value>
+              <Value name="Check Box (117)">True</Value>
+              <Value name="Check Box (15)">True</Value>
+              <Value name="Check Box (109)">False</Value>
+              <Value name="Check Box (122)">False</Value>
+              <Value name="Check Box (53)">False</Value>
+              <Value name="Check Box (58)">False</Value>
+              <Value name="Check Box (70)">False</Value>
+              <Value name="Check Box (77)">False</Value>
+              <Value name="Drop Down (81)">upper</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+          </Properties>
+          <EngineSettings Macro="Cleanse.yxmc" />
+        </Node>
+        <Node ToolID="30">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+            <Position x="642" y="462" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Fields>
+                <Field field="País" selected="True" />
+                <Field field="*Unknown" selected="True" />
+              </Fields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="País" size="9" source="Formula: [_CurrentField_]" type="String" />
+                <Field name="Carvão Mineral" source="File: C:\Users\Matheus\OneDrive\Área de Trabalho\Digital House\Projeto Integrador\Projeto_Integrador_Final\Bases\Energias_Renováveis.xlsx|||`Energia_Renovável_2015$`" type="Double" />
+                <Field name="Óleo" source="File: C:\Users\Matheus\OneDrive\Área de Trabalho\Digital House\Projeto Integrador\Projeto_Integrador_Final\Bases\Energias_Renováveis.xlsx|||`Energia_Renovável_2015$`" type="Double" />
+                <Field name="Gás Natural" source="File: C:\Users\Matheus\OneDrive\Área de Trabalho\Digital House\Projeto Integrador\Projeto_Integrador_Final\Bases\Energias_Renováveis.xlsx|||`Energia_Renovável_2015$`" type="Double" />
+                <Field name="Nuclear" source="File: C:\Users\Matheus\OneDrive\Área de Trabalho\Digital House\Projeto Integrador\Projeto_Integrador_Final\Bases\Energias_Renováveis.xlsx|||`Energia_Renovável_2015$`" type="Double" />
+                <Field name="Hidráulica" source="File: C:\Users\Matheus\OneDrive\Área de Trabalho\Digital House\Projeto Integrador\Projeto_Integrador_Final\Bases\Energias_Renováveis.xlsx|||`Energia_Renovável_2015$`" type="Double" />
+                <Field name="Renováveis" source="File: C:\Users\Matheus\OneDrive\Área de Trabalho\Digital House\Projeto Integrador\Projeto_Integrador_Final\Bases\Energias_Renováveis.xlsx|||`Energia_Renovável_2015$`" type="Double" />
+                <Field name="Total" source="File: C:\Users\Matheus\OneDrive\Área de Trabalho\Digital House\Projeto Integrador\Projeto_Integrador_Final\Bases\Energias_Renováveis.xlsx|||`Energia_Renovável_2015$`" type="Double" />
+                <Field name="%Renováveis" source="File: C:\Users\Matheus\OneDrive\Área de Trabalho\Digital House\Projeto Integrador\Projeto_Integrador_Final\Bases\Energias_Renováveis.xlsx|||`Energia_Renovável_2015$`" type="Double" />
+                <Field name="Fósseis" source="File: C:\Users\Matheus\OneDrive\Área de Trabalho\Digital House\Projeto Integrador\Projeto_Integrador_Final\Bases\Energias_Renováveis.xlsx|||`Energia_Renovável_2015$`" type="Double" />
+                <Field name="Ano" source="File: C:\Users\Matheus\OneDrive\Área de Trabalho\Digital House\Projeto Integrador\Projeto_Integrador_Final\Bases\Energias_Renováveis.xlsx|||`Energia_Renovável_2015$`" type="Double" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+        </Node>
+        <Node ToolID="32">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="522" y="462" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\Matheus\OneDrive\Área de Trabalho\Digital House\Projeto Integrador\Projeto_Integrador_Final\Bases\Energias_Renováveis.xlsx|||`Energia_Renovável_2015$`</File>
+              <FormatSpecificOptions>
+                <FirstRowData>False</FirstRowData>
+                <ImportLine>1</ImportLine>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Energias_renováveis_2015</AnnotationText>
+              <DefaultAnnotationText>Energias_Renováveis.xlsx
+Query=`Energia_Renovável_2015$`</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="País" size="255" source="File: C:\Users\Matheus\OneDrive\Área de Trabalho\Digital House\Projeto Integrador\Projeto_Integrador_Final\Bases\Energias_Renováveis.xlsx|||`Energia_Renovável_2015$`" type="V_String" />
+                <Field name="Carvão Mineral" source="File: C:\Users\Matheus\OneDrive\Área de Trabalho\Digital House\Projeto Integrador\Projeto_Integrador_Final\Bases\Energias_Renováveis.xlsx|||`Energia_Renovável_2015$`" type="Double" />
+                <Field name="Óleo" source="File: C:\Users\Matheus\OneDrive\Área de Trabalho\Digital House\Projeto Integrador\Projeto_Integrador_Final\Bases\Energias_Renováveis.xlsx|||`Energia_Renovável_2015$`" type="Double" />
+                <Field name="Gás Natural" source="File: C:\Users\Matheus\OneDrive\Área de Trabalho\Digital House\Projeto Integrador\Projeto_Integrador_Final\Bases\Energias_Renováveis.xlsx|||`Energia_Renovável_2015$`" type="Double" />
+                <Field name="Nuclear" source="File: C:\Users\Matheus\OneDrive\Área de Trabalho\Digital House\Projeto Integrador\Projeto_Integrador_Final\Bases\Energias_Renováveis.xlsx|||`Energia_Renovável_2015$`" type="Double" />
+                <Field name="Hidráulica" source="File: C:\Users\Matheus\OneDrive\Área de Trabalho\Digital House\Projeto Integrador\Projeto_Integrador_Final\Bases\Energias_Renováveis.xlsx|||`Energia_Renovável_2015$`" type="Double" />
+                <Field name="Renováveis" source="File: C:\Users\Matheus\OneDrive\Área de Trabalho\Digital House\Projeto Integrador\Projeto_Integrador_Final\Bases\Energias_Renováveis.xlsx|||`Energia_Renovável_2015$`" type="Double" />
+                <Field name="Total" source="File: C:\Users\Matheus\OneDrive\Área de Trabalho\Digital House\Projeto Integrador\Projeto_Integrador_Final\Bases\Energias_Renováveis.xlsx|||`Energia_Renovável_2015$`" type="Double" />
+                <Field name="%Renováveis" source="File: C:\Users\Matheus\OneDrive\Área de Trabalho\Digital House\Projeto Integrador\Projeto_Integrador_Final\Bases\Energias_Renováveis.xlsx|||`Energia_Renovável_2015$`" type="Double" />
+                <Field name="Fósseis" source="File: C:\Users\Matheus\OneDrive\Área de Trabalho\Digital House\Projeto Integrador\Projeto_Integrador_Final\Bases\Energias_Renováveis.xlsx|||`Energia_Renovável_2015$`" type="Double" />
+                <Field name="Ano" source="File: C:\Users\Matheus\OneDrive\Área de Trabalho\Digital House\Projeto Integrador\Projeto_Integrador_Final\Bases\Energias_Renováveis.xlsx|||`Energia_Renovável_2015$`" type="Double" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="33">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="522" y="606" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\Matheus\OneDrive\Área de Trabalho\Digital House\Projeto Integrador\Projeto_Integrador_Final\Bases\Energias_Renováveis.xlsx|||`Energia_Renovável_2021$`</File>
+              <FormatSpecificOptions>
+                <FirstRowData>False</FirstRowData>
+                <ImportLine>1</ImportLine>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Energias_Renováveis.xlsx
+Query=`Energia_Renovável_2021$`</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Países" size="255" source="File: C:\Users\Matheus\OneDrive\Área de Trabalho\Digital House\Projeto Integrador\Projeto_Integrador_Final\Bases\Energias_Renováveis.xlsx|||`Energia_Renovável_2021$`" type="V_String" />
+                <Field name="Capacidade de energia renovável (mW)" source="File: C:\Users\Matheus\OneDrive\Área de Trabalho\Digital House\Projeto Integrador\Projeto_Integrador_Final\Bases\Energias_Renováveis.xlsx|||`Energia_Renovável_2021$`" type="Double" />
+                <Field name="Ano" source="File: C:\Users\Matheus\OneDrive\Área de Trabalho\Digital House\Projeto Integrador\Projeto_Integrador_Final\Bases\Energias_Renováveis.xlsx|||`Energia_Renovável_2021$`" type="Double" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="34">
+          <GuiSettings>
+            <Position x="582" y="606" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="Check Box (135)">True</Value>
+              <Value name="Check Box (136)">True</Value>
+              <Value name="List Box (11)">"Países","Capacidade de energia renovável (mW)"</Value>
+              <Value name="Check Box (84)">True</Value>
+              <Value name="Check Box (117)">True</Value>
+              <Value name="Check Box (15)">True</Value>
+              <Value name="Check Box (109)">True</Value>
+              <Value name="Check Box (122)">True</Value>
+              <Value name="Check Box (53)">False</Value>
+              <Value name="Check Box (58)">False</Value>
+              <Value name="Check Box (70)">False</Value>
+              <Value name="Check Box (77)">False</Value>
+              <Value name="Drop Down (81)">upper</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+          </Properties>
+          <EngineSettings Macro="Cleanse.yxmc" />
+        </Node>
+        <Node ToolID="35">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+            <Position x="630" y="606" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Fields>
+                <Field field="Países" selected="True" />
+                <Field field="*Unknown" selected="True" />
+              </Fields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Países" size="9" source="Formula: [_CurrentField_]" type="String" />
+                <Field name="Capacidade de energia renovável (mW)" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_])" type="Double" />
+                <Field name="Ano" source="File: C:\Users\Matheus\OneDrive\Área de Trabalho\Digital House\Projeto Integrador\Projeto_Integrador_Final\Bases\Energias_Renováveis.xlsx|||`Energia_Renovável_2021$`" type="Double" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+        </Node>
+        <Node ToolID="36">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="702" y="462" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="Uppercase(Substring(País,0,3))" field="Code" size="1073741823" type="V_WString" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[Code = Uppercase(Substring(País,0,3))
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="37">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="750" y="606" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="Uppercase(Substring([Países],0,3))" field="Code" size="1073741823" type="V_WString" />
+                <FormulaField expression="[Ano]+[Code]" field="ID" size="1073741823" type="V_WString" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[Code = Uppercase(Substring([Países],0,3))
+ID = [Ano]+[Code]
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="38">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="690" y="606" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Ano" selected="True" type="String" size="19" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="27">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="497" y="221" width="356" height="165" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Desemprego</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="3">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="522" y="270" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\Matheus\OneDrive\Área de Trabalho\Digital House\Projeto Integrador\Projeto_Integrador_Final\Bases\base_Felipe_2.xlsx|||`Unemployment rate$`</File>
+              <FormatSpecificOptions>
+                <FirstRowData>False</FirstRowData>
+                <ImportLine>1</ImportLine>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Desemprego</AnnotationText>
+              <DefaultAnnotationText>base_Felipe_2.xlsx
+Query=`Unemployment rate$`</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Country" size="255" source="File: C:\Users\Matheus\OneDrive\Área de Trabalho\Digital House\Projeto Integrador\Projeto_Integrador_Final\Bases\base_Felipe_2.xlsx|||`Unemployment rate$`" type="V_String" />
+                <Field name="Code" size="255" source="File: C:\Users\Matheus\OneDrive\Área de Trabalho\Digital House\Projeto Integrador\Projeto_Integrador_Final\Bases\base_Felipe_2.xlsx|||`Unemployment rate$`" type="V_String" />
+                <Field name="ContinentCode" size="255" source="File: C:\Users\Matheus\OneDrive\Área de Trabalho\Digital House\Projeto Integrador\Projeto_Integrador_Final\Bases\base_Felipe_2.xlsx|||`Unemployment rate$`" type="V_String" />
+                <Field name="Year" source="File: C:\Users\Matheus\OneDrive\Área de Trabalho\Digital House\Projeto Integrador\Projeto_Integrador_Final\Bases\base_Felipe_2.xlsx|||`Unemployment rate$`" type="Double" />
+                <Field name="Unemployment rate" source="File: C:\Users\Matheus\OneDrive\Área de Trabalho\Digital House\Projeto Integrador\Projeto_Integrador_Final\Bases\base_Felipe_2.xlsx|||`Unemployment rate$`" type="Double" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="23">
+          <GuiSettings>
+            <Position x="570" y="270" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="Check Box (135)">False</Value>
+              <Value name="Check Box (136)">False</Value>
+              <Value name="List Box (11)">"Country","Code","ContinentCode","Year","Unemployment rate"</Value>
+              <Value name="Check Box (84)">True</Value>
+              <Value name="Check Box (117)">True</Value>
+              <Value name="Check Box (15)">True</Value>
+              <Value name="Check Box (109)">True</Value>
+              <Value name="Check Box (122)">True</Value>
+              <Value name="Check Box (53)">False</Value>
+              <Value name="Check Box (58)">False</Value>
+              <Value name="Check Box (70)">False</Value>
+              <Value name="Check Box (77)">False</Value>
+              <Value name="Drop Down (81)">upper</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+          </Properties>
+          <EngineSettings Macro="Cleanse.yxmc" />
+        </Node>
+        <Node ToolID="24">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+            <Position x="630" y="270" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Fields>
+                <Field field="Country" selected="True" />
+                <Field field="Code" selected="True" />
+                <Field field="ContinentCode" selected="True" />
+                <Field field="*Unknown" selected="True" />
+              </Fields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Country" size="9" source="Formula: [_CurrentField_]" type="String" />
+                <Field name="Code" size="3" source="Formula: [_CurrentField_]" type="String" />
+                <Field name="ContinentCode" size="2" source="Formula: [_CurrentField_]" type="String" />
+                <Field name="Year" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_])" type="Double" />
+                <Field name="Unemployment rate" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_])" type="Double" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+        </Node>
+        <Node ToolID="25">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="750" y="270" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="[Code]+ [Year]" field="id" size="1073741823" type="V_WString" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[id = [Code]+ [Year]
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="26">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="690" y="270" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Year" selected="True" type="String" size="19" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="77" y="413" width="398" height="225" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Entrada de Universitários</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="6">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="102" y="462" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\Matheus\OneDrive\Área de Trabalho\Digital House\Projeto Integrador\Projeto_Integrador_Final\Bases\base_Felipe_2.xlsx|||`Tertiary school enrollment$`</File>
+              <FormatSpecificOptions>
+                <FirstRowData>False</FirstRowData>
+                <ImportLine>1</ImportLine>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Entrada na Faculdade</AnnotationText>
+              <DefaultAnnotationText>base_Felipe_2.xlsx
+Query=`Tertiary school enrollment$...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Country" size="255" source="File: C:\Users\Matheus\OneDrive\Área de Trabalho\Digital House\Projeto Integrador\Projeto_Integrador_Final\Bases\base_Felipe_2.xlsx|||`Tertiary school enrollment$`" type="V_String" />
+                <Field name="Code" size="255" source="File: C:\Users\Matheus\OneDrive\Área de Trabalho\Digital House\Projeto Integrador\Projeto_Integrador_Final\Bases\base_Felipe_2.xlsx|||`Tertiary school enrollment$`" type="V_String" />
+                <Field name="ContinentCode" size="255" source="File: C:\Users\Matheus\OneDrive\Área de Trabalho\Digital House\Projeto Integrador\Projeto_Integrador_Final\Bases\base_Felipe_2.xlsx|||`Tertiary school enrollment$`" type="V_String" />
+                <Field name="Year" source="File: C:\Users\Matheus\OneDrive\Área de Trabalho\Digital House\Projeto Integrador\Projeto_Integrador_Final\Bases\base_Felipe_2.xlsx|||`Tertiary school enrollment$`" type="Double" />
+                <Field name="Tertiary school enrollment, percent of all eligible children" size="255" source="File: C:\Users\Matheus\OneDrive\Área de Trabalho\Digital House\Projeto Integrador\Projeto_Integrador_Final\Bases\base_Felipe_2.xlsx|||`Tertiary school enrollment$`" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="18">
+          <GuiSettings>
+            <Position x="174" y="462" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="Check Box (135)">True</Value>
+              <Value name="Check Box (136)">True</Value>
+              <Value name="List Box (11)">"Country","Code","ContinentCode","Year","Tertiary school enrollment, percent of all eligible children"</Value>
+              <Value name="Check Box (84)">False</Value>
+              <Value name="Check Box (117)">False</Value>
+              <Value name="Check Box (15)">True</Value>
+              <Value name="Check Box (109)">True</Value>
+              <Value name="Check Box (122)">True</Value>
+              <Value name="Check Box (53)">False</Value>
+              <Value name="Check Box (58)">False</Value>
+              <Value name="Check Box (70)">False</Value>
+              <Value name="Check Box (77)">False</Value>
+              <Value name="Drop Down (81)">upper</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+          </Properties>
+          <EngineSettings Macro="Cleanse.yxmc" />
+        </Node>
+        <Node ToolID="19">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="354" y="462" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="IF IsEmpty([Tertiary school enrollment, percent of all eligible children]) THEN 0 ELSE [Tertiary school enrollment, percent of all eligible children] ENDIF" field="Tertiary school enrollment, percent of all eligible children" size="18" type="V_String" />
+                <FormulaField expression="[Code]+[Year]" field="ID" size="1073741823" type="V_WString" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Tertiary school enrollment, percent of all eligible children = IF IsEmpty([Terti...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="20">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+            <Position x="234" y="462" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Fields>
+                <Field field="Country" selected="True" />
+                <Field field="Code" selected="True" />
+                <Field field="ContinentCode" selected="True" />
+                <Field field="Tertiary school enrollment, percent of all eligible children" selected="True" />
+                <Field field="*Unknown" selected="True" />
+              </Fields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Country" size="9" source="Formula: [_CurrentField_]" type="String" />
+                <Field name="Code" size="3" source="Formula: [_CurrentField_]" type="String" />
+                <Field name="ContinentCode" size="2" source="Formula: [_CurrentField_]" type="String" />
+                <Field name="Year" source="File: C:\Users\Matheus\OneDrive\Área de Trabalho\Digital House\Projeto Integrador\Projeto_Integrador_Final\Bases\base_Felipe_2.xlsx|||`Tertiary school enrollment$`" type="Double" />
+                <Field name="Tertiary school enrollment, percent of all eligible children" size="18" source="Formula: [_CurrentField_]" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+        </Node>
+        <Node ToolID="21">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="294" y="462" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Year" selected="True" type="String" size="19" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="65" y="209" width="409" height="177" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Representatividade Feminina</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="5">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="90" y="270" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\Matheus\OneDrive\Área de Trabalho\Digital House\Projeto Integrador\Projeto_Integrador_Final\Bases\UNdata_Export_20220819_145640052.csv</File>
+              <FormatSpecificOptions>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreErrors>False</IgnoreErrors>
+                <AllowShareWrite>False</AllowShareWrite>
+                <ImportLine>1</ImportLine>
+                <FieldLen>254</FieldLen>
+                <SingleThreadRead>False</SingleThreadRead>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <Delimeter>,</Delimeter>
+                <QuoteRecordBreak>False</QuoteRecordBreak>
+                <CodePage>28591</CodePage>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText><![CDATA[Representividade Feminina
+]]></AnnotationText>
+              <DefaultAnnotationText>UNdata_Export_20220819_145640052.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Country or Area" size="254" source="File: C:\Users\Matheus\OneDrive\Área de Trabalho\Digital House\Projeto Integrador\Projeto_Integrador_Final\Bases\UNdata_Export_20220819_145640052.csv" type="V_String" />
+                <Field name="Year" size="254" source="File: C:\Users\Matheus\OneDrive\Área de Trabalho\Digital House\Projeto Integrador\Projeto_Integrador_Final\Bases\UNdata_Export_20220819_145640052.csv" type="V_String" />
+                <Field name="Value" size="254" source="File: C:\Users\Matheus\OneDrive\Área de Trabalho\Digital House\Projeto Integrador\Projeto_Integrador_Final\Bases\UNdata_Export_20220819_145640052.csv" type="V_String" />
+                <Field name="Value Footnotes" size="254" source="File: C:\Users\Matheus\OneDrive\Área de Trabalho\Digital House\Projeto Integrador\Projeto_Integrador_Final\Bases\UNdata_Export_20220819_145640052.csv" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="10">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="270" y="270" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Expression><![CDATA[[Country or Area] = "Brazil"    OR
+[Country or Area] = "Ecuador"   OR 
+[Country or Area] = "Argentina" OR 
+[Country or Area] = "Chile"     OR
+[Country or Area] = "Uruguay"   OR 
+[Country or Area] = "Paraguay"  OR 
+[Country or Area] = "Colombia"  OR
+[Country or Area] = "Bolivia"   OR
+[Country or Area] = "Guyana"    OR
+[Country or Area] = "Peru"
+]]></Expression>
+              <Mode>Custom</Mode>
+            </Configuration>
+            <Annotation DisplayMode="2">
+              <Name />
+              <DefaultAnnotationText>[Country or Area] = "Brazil"    OR
+[Country or Area] = "Ecuador"   OR 
+[Country ...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="11">
+          <GuiSettings>
+            <Position x="150" y="270" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="Check Box (135)">False</Value>
+              <Value name="Check Box (136)">False</Value>
+              <Value name="List Box (11)">"Country or Area","Year","Value","Value Footnotes"</Value>
+              <Value name="Check Box (84)">True</Value>
+              <Value name="Check Box (117)">True</Value>
+              <Value name="Check Box (15)">True</Value>
+              <Value name="Check Box (109)">False</Value>
+              <Value name="Check Box (122)">False</Value>
+              <Value name="Check Box (53)">False</Value>
+              <Value name="Check Box (58)">False</Value>
+              <Value name="Check Box (70)">False</Value>
+              <Value name="Check Box (77)">False</Value>
+              <Value name="Drop Down (81)">upper</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+          </Properties>
+          <EngineSettings Macro="Cleanse.yxmc" />
+        </Node>
+        <Node ToolID="12">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+            <Position x="210" y="270" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Fields>
+                <Field field="Country or Area" selected="True" />
+                <Field field="Year" selected="True" />
+                <Field field="Value" selected="True" />
+                <Field field="Value Footnotes" selected="True" />
+                <Field field="*Unknown" selected="False" />
+              </Fields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Country or Area" size="50" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="Year" size="4" source="Formula: [_CurrentField_]" type="String" />
+                <Field name="Value" size="16" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="Value Footnotes" size="1" source="Formula: [_CurrentField_]" type="String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+        </Node>
+        <Node ToolID="15">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="330" y="258" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="Uppercase(Substring([Country or Area],0,3))" field="Code" size="1073741823" type="V_WString" />
+                <FormulaField expression="[Code]+ [Year]" field="ID" size="1073741823" type="V_WString" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="2">
+              <Name />
+              <AnnotationText><![CDATA[Code = Uppercase(Substring([Country or Area],0,3))
+ID = [Code]+ [Year]
+]]></AnnotationText>
+              <DefaultAnnotationText><![CDATA[Code = Uppercase(Substring([Country or Area],0,3))
+ID = [Code]+ [Year]
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="16">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="390" y="258" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="True" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="ID" selected="True" />
+                <SelectField field="Country or Area" selected="True" />
+                <SelectField field="Year" selected="True" />
+                <SelectField field="Value" selected="True" />
+                <SelectField field="Value Footnotes" selected="False" />
+                <SelectField field="Code" selected="True" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="881" y="221" width="505" height="225" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Crescimento_Econômico</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="8">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="906" y="270" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\Matheus\OneDrive\Área de Trabalho\Digital House\Projeto Integrador\Projeto_Integrador_Final\Bases\Bases_leo_2.xlsx|||`Plan1$`</File>
+              <FormatSpecificOptions>
+                <FirstRowData>False</FirstRowData>
+                <ImportLine>1</ImportLine>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Crescimento_Econômico/Divida Pública/ Energia_Elétrica</AnnotationText>
+              <DefaultAnnotationText>Bases_leo_2.xlsx
+Query=`Plan1$`</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Country" size="255" source="File: C:\Users\Matheus\OneDrive\Área de Trabalho\Digital House\Projeto Integrador\Projeto_Integrador_Final\Bases\Bases_leo_2.xlsx|||`Plan1$`" type="V_String" />
+                <Field name="Code" size="255" source="File: C:\Users\Matheus\OneDrive\Área de Trabalho\Digital House\Projeto Integrador\Projeto_Integrador_Final\Bases\Bases_leo_2.xlsx|||`Plan1$`" type="V_String" />
+                <Field name="ContinentCode" size="255" source="File: C:\Users\Matheus\OneDrive\Área de Trabalho\Digital House\Projeto Integrador\Projeto_Integrador_Final\Bases\Bases_leo_2.xlsx|||`Plan1$`" type="V_String" />
+                <Field name="Year" source="File: C:\Users\Matheus\OneDrive\Área de Trabalho\Digital House\Projeto Integrador\Projeto_Integrador_Final\Bases\Bases_leo_2.xlsx|||`Plan1$`" type="Double" />
+                <Field name="Economic growth: the rate of change of real GDP" size="255" source="File: C:\Users\Matheus\OneDrive\Área de Trabalho\Digital House\Projeto Integrador\Projeto_Integrador_Final\Bases\Bases_leo_2.xlsx|||`Plan1$`" type="V_String" />
+                <Field name="External debt, percent of Gross National Income" size="255" source="File: C:\Users\Matheus\OneDrive\Área de Trabalho\Digital House\Projeto Integrador\Projeto_Integrador_Final\Bases\Bases_leo_2.xlsx|||`Plan1$`" type="V_String" />
+                <Field name="Economic growth forecast" source="File: C:\Users\Matheus\OneDrive\Área de Trabalho\Digital House\Projeto Integrador\Projeto_Integrador_Final\Bases\Bases_leo_2.xlsx|||`Plan1$`" type="Double" />
+                <Field name="Access to electricity, percent of the population" size="255" source="File: C:\Users\Matheus\OneDrive\Área de Trabalho\Digital House\Projeto Integrador\Projeto_Integrador_Final\Bases\Bases_leo_2.xlsx|||`Plan1$`" type="V_String" />
+                <Field name="Innovations index (0-100)" size="255" source="File: C:\Users\Matheus\OneDrive\Área de Trabalho\Digital House\Projeto Integrador\Projeto_Integrador_Final\Bases\Bases_leo_2.xlsx|||`Plan1$`" type="V_String" />
+                <Field name="Research and development expenditure, percent of GDP" size="255" source="File: C:\Users\Matheus\OneDrive\Área de Trabalho\Digital House\Projeto Integrador\Projeto_Integrador_Final\Bases\Bases_leo_2.xlsx|||`Plan1$`" type="V_String" />
+                <Field name="Information technology exports, percent of total goods exports" size="255" source="File: C:\Users\Matheus\OneDrive\Área de Trabalho\Digital House\Projeto Integrador\Projeto_Integrador_Final\Bases\Bases_leo_2.xlsx|||`Plan1$`" type="V_String" />
+                <Field name="High technology exports" size="255" source="File: C:\Users\Matheus\OneDrive\Área de Trabalho\Digital House\Projeto Integrador\Projeto_Integrador_Final\Bases\Bases_leo_2.xlsx|||`Plan1$`" type="V_String" />
+                <Field name="High tech exports, percent of manufactured exports" size="255" source="File: C:\Users\Matheus\OneDrive\Área de Trabalho\Digital House\Projeto Integrador\Projeto_Integrador_Final\Bases\Bases_leo_2.xlsx|||`Plan1$`" type="V_String" />
+                <Field name="Patent applications by residents" size="255" source="File: C:\Users\Matheus\OneDrive\Área de Trabalho\Digital House\Projeto Integrador\Projeto_Integrador_Final\Bases\Bases_leo_2.xlsx|||`Plan1$`" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="51">
+          <GuiSettings>
+            <Position x="966" y="270" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="Check Box (135)">True</Value>
+              <Value name="Check Box (136)">True</Value>
+              <Value name="List Box (11)">"Country","Code","ContinentCode","Year","Economic growth: the rate of change of real GDP","External debt, percent of Gross National Income","Economic growth forecast","Access to electricity, percent of the population","Innovations index (0-100)","Research and development expenditure, percent of GDP","Information technology exports, percent of total goods exports","High technology exports","High tech exports, percent of manufactured exports","Patent applications by residents"</Value>
+              <Value name="Check Box (84)">True</Value>
+              <Value name="Check Box (117)">True</Value>
+              <Value name="Check Box (15)">True</Value>
+              <Value name="Check Box (109)">False</Value>
+              <Value name="Check Box (122)">False</Value>
+              <Value name="Check Box (53)">False</Value>
+              <Value name="Check Box (58)">False</Value>
+              <Value name="Check Box (70)">False</Value>
+              <Value name="Check Box (77)">False</Value>
+              <Value name="Drop Down (81)">upper</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+          </Properties>
+          <EngineSettings Macro="Cleanse.yxmc" />
+        </Node>
+        <Node ToolID="52">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+            <Position x="1026" y="270" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Fields>
+                <Field field="Country" selected="True" />
+                <Field field="Code" selected="True" />
+                <Field field="ContinentCode" selected="True" />
+                <Field field="Economic growth: the rate of change of real GDP" selected="True" />
+                <Field field="External debt, percent of Gross National Income" selected="True" />
+                <Field field="Access to electricity, percent of the population" selected="True" />
+                <Field field="Innovations index (0-100)" selected="True" />
+                <Field field="Research and development expenditure, percent of GDP" selected="True" />
+                <Field field="Information technology exports, percent of total goods exports" selected="True" />
+                <Field field="High technology exports" selected="True" />
+                <Field field="High tech exports, percent of manufactured exports" selected="True" />
+                <Field field="Patent applications by residents" selected="True" />
+                <Field field="*Unknown" selected="True" />
+              </Fields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Country" size="18" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="Code" size="3" source="Formula: [_CurrentField_]" type="String" />
+                <Field name="ContinentCode" size="2" source="Formula: [_CurrentField_]" type="String" />
+                <Field name="Year" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_])" type="Double" />
+                <Field name="Economic growth: the rate of change of real GDP" size="20" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="External debt, percent of Gross National Income" size="18" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="Economic growth forecast" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_])" type="Double" />
+                <Field name="Access to electricity, percent of the population" size="5" source="Formula: [_CurrentField_]" type="String" />
+                <Field name="Innovations index (0-100)" size="18" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="Research and development expenditure, percent of GDP" size="19" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="Information technology exports, percent of total goods exports" size="21" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="High technology exports" size="18" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="High tech exports, percent of manufactured exports" size="18" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="Patent applications by residents" size="4" source="Formula: [_CurrentField_]" type="String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+        </Node>
+        <Node ToolID="53">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="1086" y="270" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Year" selected="True" type="String" size="19" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="54">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="1146" y="270" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="IF IsEmpty([Economic growth: the rate of change of real GDP]) THEN 0 ELSE [Economic growth: the rate of change of real GDP] ENDIF " field="Economic growth: the rate of change of real GDP" size="20" type="V_String" />
+                <FormulaField expression="IF IsEmpty([External debt, percent of Gross National Income]) THEN 0 ELSE [External debt, percent of Gross National Income] ENDIF" field="External debt, percent of Gross National Income" size="18" type="V_String" />
+                <FormulaField expression="IF IsEmpty([Economic growth forecast]) THEN 0 ELSE [Economic growth forecast] ENDIF" field="Economic growth forecast" size="8" type="Double" />
+                <FormulaField expression="IF IsEmpty([Access to electricity, percent of the population]) THEN 0 ELSE [Access to electricity, percent of the population] ENDIF" field="Access to electricity, percent of the population" size="5" type="String" />
+                <FormulaField expression="IF IsEmpty([Innovations index (0-100)]) THEN 0 ELSE [Innovations index (0-100)] ENDIF" field="Innovations index (0-100)" size="18" type="V_String" />
+                <FormulaField expression="IF IsEmpty([Information technology exports, percent of total goods exports]) THEN 0 ELSE [Information technology exports, percent of total goods exports] ENDIF" field="Information technology exports, percent of total goods exports" size="21" type="V_String" />
+                <FormulaField expression="IF IsEmpty([High technology exports]) THEN 0 ELSE [High technology exports] ENDIF" field="High technology exports" size="18" type="V_String" />
+                <FormulaField expression="IF IsEmpty([High tech exports, percent of manufactured exports]) THEN 0 ELSE [High tech exports, percent of manufactured exports] ENDIF" field="High tech exports, percent of manufactured exports" size="18" type="V_String" />
+                <FormulaField expression="IF IsEmpty([Patent applications by residents]) THEN 0 ELSE [Patent applications by residents] ENDIF" field="Patent applications by residents" size="4" type="String" />
+                <FormulaField expression="IF IsEmpty([Research and development expenditure, percent of GDP]) THEN 0 ELSE [Research and development expenditure, percent of GDP] ENDIF" field="Research and development expenditure, percent of GDP" size="19" type="V_String" />
+                <FormulaField expression="[Year]+[Code]" field="ID" size="1073741823" type="V_WString" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Economic growth: the rate of change of real GDP = IF IsEmpty([Economic growth: t...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="55">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="1266" y="270" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Expression>[Country] = "Brazil"    OR
+[Country] = "Ecuador"   OR 
+[Country] = "Argentina" OR 
+[Country] = "Chile"     OR
+[Country] = "Uruguay"   OR 
+[Country] = "Paraguay"  OR 
+[Country] = "Colombia"  OR
+[Country] = "Bolivia"   OR
+[Country] = "Guyana"    OR
+[Country] = "Peru"      OR
+[Country] = "Veneruela" OR
+[Country] = "Haiti"</Expression>
+              <Mode>Custom</Mode>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>[Country] = "Brazil"    OR
+[Country] = "Ecuador"   OR 
+[Country] = "Argentina" O...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="45" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="45" Connection="Output26" />
+      <Destination ToolID="46" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="46" Connection="Output" />
+      <Destination ToolID="47" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="47" Connection="Output" />
+      <Destination ToolID="48" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="40" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="40" Connection="Output26" />
+      <Destination ToolID="41" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="41" Connection="Output" />
+      <Destination ToolID="43" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="43" Connection="Output" />
+      <Destination ToolID="42" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="29" Connection="Output26" />
+      <Destination ToolID="30" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="30" Connection="Output" />
+      <Destination ToolID="36" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="32" Connection="Output" />
+      <Destination ToolID="29" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="33" Connection="Output" />
+      <Destination ToolID="34" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="34" Connection="Output26" />
+      <Destination ToolID="35" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="35" Connection="Output" />
+      <Destination ToolID="38" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="38" Connection="Output" />
+      <Destination ToolID="37" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="23" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="Output26" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Output" />
+      <Destination ToolID="26" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Output" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="18" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Output26" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Output" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="11" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="True" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output26" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="51" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="51" Connection="Output26" />
+      <Destination ToolID="52" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="52" Connection="Output" />
+      <Destination ToolID="53" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="53" Connection="Output" />
+      <Destination ToolID="54" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="54" Connection="Output" />
+      <Destination ToolID="55" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Fluxo_PI</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="13651576-3091-423e-a811-061387e1b490" />
+      <Telemetry>
+        <PreviousWorkflowId value="9aec3cb0-2164-4c49-aa78-8a30ebc334e6" />
+        <OriginWorkflowId value="9aec3cb0-2164-4c49-aa78-8a30ebc334e6" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
