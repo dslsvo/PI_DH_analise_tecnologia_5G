@@ -65,8 +65,8 @@ O pipeline para o desenvolvimento de todo o projeto está resumido na figura aba
 
 Abaixo, segue um breve resumo da análise estatística e de modelagem realizada. Caso seja necessário a análise dos códigos, o arquivo/ notebook python "Modelo Final-Vencedor.ipynb" está disponível neste repositório. 
 </br>
-- Fora realizada a EDA das variáveis, encontrada a correlação dos dados com a target "Índice de Inovação", e a partir disso foram testados três modelos de regressão: Linear Regresison, Ridge Regression e SGD Regressio.
-- Dentre os modelos análisados, e as métricas consideradas (R² e RMSE) o modelo vencedor foi o Ridge Regression, apresentando RMSE = 1.1 e R² = 0,80.
+- Fora realizada a EDA das variáveis, encontrada a correlação dos dados com a target "Índice de Inovação", e a partir disso foram testados três modelos de regressão: Linear Regresison, Ridge Regression e SGD Regression.
+- Dentre os modelos analisados, e as métricas consideradas (R² e RMSE) o modelo vencedor foi o Ridge Regression, apresentando RMSE = 1.1 e R² = 0,80.
 - Além disso, foi verificado a importância das variáveis por meio de um gráfico SHAP, o que direcionou nossas análises iniciais no Power BI dentre as tantas variáveis disponíveis para análise.
 
 </br>
