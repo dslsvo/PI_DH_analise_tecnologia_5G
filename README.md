@@ -41,7 +41,7 @@ Foi criado uma Squad especializada para atendimento ao cliente.
 
 ## **Arquitetura**
 
-O pipeline para o desenvolvimento de todo o projeto está resumido na fiugura abaixo.
+O pipeline para o desenvolvimento de todo o projeto está resumido na figura abaixo.
 
 - **Fase de Coleta**: foram coletados diversos dados que possuíam informações relevantes dos pilares da Agenda 2030 da ONU, em diversas fontes. As bases estão disponíveis no atual repositório.
 - **Fase de Armazenamento**: utilizamos o Heroku para criar uma interface compartilhada em que todos pudessem subir os arquivos pesquisados.
