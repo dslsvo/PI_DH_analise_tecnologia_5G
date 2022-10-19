@@ -13,7 +13,7 @@ O presente trabalho foi desenvolvido como Projeto Integrador para conclusão do 
 
 ## **Problema de Negócio**
 
-Mediante o crescente avanço tecnológico, o cliente Huawei gostaria de instalar uma nova filial em algum País. Para isso, solicitou o serviço da BR Consult, consultoria especializada em Dados, para orientá-lo sobre qual País melhor atenderia a expectativa de instalação de sua nova fábrica. 
+Mediante o crescente avanço tecnológico, o cliente Huawei gostaria de instalar uma nova filial em algum País. Para isso, solicitou o serviço da BR CONSULT, consultoria especializada em Dados, para orientá-lo sobre qual País melhor atenderia a expectativa de instalação de sua nova fábrica. 
 <br> A Huawei é uma empresa que se preocupa com a Agenda 2030 da ONU, a qual é um plano global para atingirmos um mundo melhor para todos os povos e nações. Portanto, para análise, devem ser considerados dados que possam contribuir com os diversos pilares da agenda.
 
 <br> 
